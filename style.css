@@ -1,0 +1,154 @@
+     /* Desarrollo Página Web Pre saberes
+     Elaborado Por: Camilo Ferro
+     Grupo:  301127_12
+     Todos los Derechos reservados
+    UNAD 2020    */
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+h1{
+    background: #f0ad4e;
+    font-size: 40px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    color: #004568;
+    margin: 0;
+    text-align: center;   
+}
+
+h2{        
+    font-weight: bold;
+    font-size: 24px;
+    margin: 1px;
+}
+
+ol, ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;    
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    position: fixed;
+    z-index: 100;   
+    top: 0;
+    width: 100%;
+}
+ 
+.header a {
+color: white;
+text-decoration: none;
+}
+.header ol {
+display: flex;
+height: inherit;
+}
+
+.header ol li {
+height: inherit;
+}
+
+.header a {
+display: flex;
+align-items: center;
+height: inherit;
+padding: 0 10px;
+}
+
+.header li :hover{
+    background: white;
+    color: #004568;
+}
+
+.menu {
+    height: inherit;
+    position: absolute;
+    right: 0%;
+}
+ 
+.hero{    
+    margin-top: 50px;
+}
+
+.presentación{     
+    border: 1px solid gray;
+    border-radius: 10px;     
+    margin: 30px; 
+    margin-top: 0;
+    margin-bottom: 15px; 
+    padding: 20px;
+    background: rgb(219, 217, 217);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.mid-pres{
+    width: 80%;
+}
+
+.presentacion-img{    
+    width: 20%;
+    object-fit: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+.img{
+    max-width: 100%;
+    border-radius: 100px;     
+}
+
+.tabla{
+	margin: 15px 30px;
+	
+}
+.tabla thead{
+    background: #004568;    
+    text-align: center;
+    color: white;
+    border-bottom: solid 5px #84939b;
+}
+
+.tabla table{
+	background-color: white;
+	text-align: left;
+	border-color: #1b2127;
+	width: 100%;
+}
+
+.tabla th, td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #6b3696;
+	color: white;
+}
+
+
+.footer {
+    color: white;
+    background-color: #1b2127;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+}
